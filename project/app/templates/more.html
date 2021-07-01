@@ -1,0 +1,168 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <title>Fitness With Tanu</title>
+  <link rel="icon" href="{% static 'img/Fitnesswithtanu.jpeg' %}"  type="image/icon type">
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+
+    <!-- Favicons -->
+    <link href="{% static '/img/favicon.png' %}" rel="icon">
+    <link href="{% static '/img/apple-touch-icon.png' %}" rel="apple-touch-icon">
+
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+        rel="stylesheet">
+
+    <!-- Vendor CSS Files -->
+    <link rel="stylesheet" href="{% static '/vendor/bootstrap/css/bootstrap.min.css' %}">
+    <link rel="stylesheet" href="{% static '/vendor/icofont/icofont.min.css' %}">
+    <link rel="stylesheet" href="{% static '/vendor/boxicons/css/boxicons.min.css' %}">
+    <link rel="stylesheet" href="{% static '/vendor/owl.carousel/assets/owl.carousel.min.css' %}">
+    <link rel="stylesheet" href="{% static '/vendor/venobox/venobox.css' %}">
+    <link rel="stylesheet" href="{% static '/vendor/aos/aos.css' %}">
+
+    <!-- Template Main CSS File -->
+    <link href="{% static 'more/more.css' %}" rel="stylesheet">
+
+
+</head>
+
+<body>
+
+    <!-- ======= Top Bar ======= -->
+    <div id="topbar" class="d-none d-lg-flex align-items-center fixed-top">
+        <div class="container d-flex">
+            <div class="contact-info mr-auto">
+                <i class="icofont-envelope"></i> <a href="mailto:fitnesswithtanu@gmail.com">fitnesswithtanu@gmail.com</a>
+                <i class="icofont-phone"></i> 9998887771
+            </div>
+            <div class="social-links">
+                <a href="#" class="twitter"><i class="icofont-twitter"></i></a>
+                <a href="#" class="facebook"><i class="icofont-facebook"></i></a>
+                <a href="#" class="instagram"><i class="icofont-instagram"></i></a>
+                <a href="#" class="skype"><i class="icofont-skype"></i></a>
+                <a href="#" class="linkedin"><i class="icofont-linkedin"></i></i></a>
+            </div>
+        </div>
+    </div>
+
+    <!-- ======= Header ======= -->
+    <header id="header" class="fixed-top">
+        <div class="container d-flex align-items-center">
+
+            <h1 class="logo mr-auto"><a href="index.html">Fitness With Tanu<span>.</span></a></h1>
+            <!-- Uncomment below if you prefer to use an image logo -->
+            <!-- <a href="index.html" class="logo mr-auto"><img src="{% static '/img/logo.png" alt=""></a>-->
+
+            <nav class="nav-menu d-none d-lg-block">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li class="active"><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="{% url 'workshop' %}">Workshops</a></li>
+                    <li><a href="#team">Team</a></li>
+                    <li class="drop-down"><a href="">Drop Down</a>
+                        <ul>
+                            <li><a href="#">Consult</a></li>
+                            <li class="drop-down"><a href="#">WorkShops</a>
+                                <ul>
+                                    <li><a href="#">Deep 1</a></li>
+                                    <li><a href="#">Deep Drop Down 2</a></li>
+                                    <li><a href="#">Deep Drop Down 3</a></li>
+                                    <li><a href="#">Deep Drop Down 4</a></li>
+                                    <li><a href="#">Deep Drop Down 5</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Drop Down 2</a></li>
+                            <li><a href="#">Drop Down 3</a></li>
+                            <li><a href="#">Drop Down 4</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#contact">Contact</a></li>
+
+                </ul>
+            </nav><!-- .nav-menu -->
+
+        </div>
+
+    </header><!-- End Header -->
+    <div id="preloader"></div>
+    <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
+
+
+    <div class="row " style="margin-top: 12%;padding-bottom: 5%;">
+        <div class="col-lg-12 aos-init aos-animate qualifications" data-aos="zoom-out" data-aos-delay="100">
+            <img src="{% static 'img/download.jpg' %}" alt="">
+            <b>
+                <h2 style="text-align: center;margin-bottom:35px;margin-top: 3%;"><u>Professional Qualifications</h2>
+            </b></u>
+            <ul>
+                <li>MBA in Hospital Administration ,ICFAI University, Hyderabad 2006</li>
+                <li>M.Sc. in Food, Nutrition &Dietetics ,Allahabad Agricultural University, Uttar Pradesh 2008</li>
+                <li>B.Sc in Home Science,MJP Rohilkhand University, Uttar Pradesh 2006</li>
+            </ul>
+
+        </div>
+    </div>
+    <hr>
+
+
+    <div class="row " style="margin-top: 10%;padding-bottom: 5%;justify-content: space-between;flex: 1;
+  flex-direction: column;">
+        <div class="col-lg-12 aos-init aos-animate award" data-aos="zoom-out" data-aos-delay="100">
+            <div class="image">
+                <img src="{% static 'img/awards.jpg' %}" alt="">
+            </div>
+            <div class="honour">
+                <b>
+                    <h2 style="text-align: center;"><u>Honours And Awards</h2>
+                </b></u>
+                <ul>
+                    <li>Got 2nd prize and an award in FEHI Madagascar Sparkle XII best out of waste competition, 2015.
+                    </li>
+                    <li>Got Appreciation award for Best Patient Care/Consultation service in August, 2015. </li>
+                    <li>Got 2015th Women of Substance Award by Fortis Escort Heart Institute, New Delhi</li>
+                    <li>Got Appreciation award for Best Patient Care/Consultation service in February, 2015. </li>
+                    <li>Merit holder in Post-graduation. </li>
+                    <li>Gold medallist in Graduation </li>
+                    <li>Qualified Indian council of agricultural research(ICAR) test in 2006</li>
+                    <li>Qualified Banaras Hindu University, test (All India Rank-2 ) in 2006</li>
+                </ul>
+
+            </div>
+        </div>
+
+    </div>
+    </section>
+
+
+
+
+
+
+    <!-- Vendor JS Files -->
+    <script src="{% static '/vendor/jquery/jquery.min.js' %}"></script>
+    <script src="{% static '/vendor/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
+    <script src="{% static '/vendor/jquery.easing/jquery.easing.min.js' %}"></script>
+    <script src="{% static '/vendor/php-email-form/validate.js' %}"></script>
+    <script src="{% static '/vendor/waypoints/jquery.waypoints.min.js' %}"></script>
+    <script src="{% static '/vendor/counterup/counterup.min.js' %}"></script>
+    <script src="{% static '/vendor/owl.carousel/owl.carousel.min.js' %}"></script>
+    <script src="{% static '/vendor/isotope-layout/isotope.pkgd.min.js' %}"></script>
+    <script src="{% static '/vendor/venobox/venobox.min.js' %}"></script>
+    <script src="{% static '/vendor/aos/aos.js' %}"></script>
+
+    <!-- Template Main JS File -->
+    <script src="{% static '/js/main.js' %}"></script>
+
+
+</body>
+
+</html>

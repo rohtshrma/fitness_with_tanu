@@ -1,0 +1,284 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <title>Fitness With Tanu</title>
+    <link rel="icon" href="{% static 'img/Fitnesswithtanu.jpeg' %}" type="image/icon type">
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+
+
+    <!-- Google Fonts -->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i">
+
+    <!-- Vendor CSS Files -->
+    <link rel="stylesheet" href="{% static '/vendor/bootstrap/css/bootstrap.min.css' %}">
+    <link rel="stylesheet" href="{% static '/vendor/icofont/icofont.min.css' %}">
+    <link rel="stylesheet" href="{% static '/vendor/boxicons/css/boxicons.min.css' %}">
+    <link rel="stylesheet" href="{% static '/vendor/owl.carousel/assets/owl.carousel.min.css' %}">
+    <link rel="stylesheet" href="{% static '/vendor/venobox/venobox.css' %}">
+    <link rel="stylesheet" href="{% static '/vendor/aos/aos.css' %}">
+
+    <!-- Template Main CSS File -->
+    <link rel="stylesheet" href="{% static '/css/more.css' %}">
+
+</head>
+
+<body>
+
+    <!-- ======= Top Bar ======= -->
+    <div id="topbar" class="d-none d-lg-flex align-items-center fixed-top">
+        <div class="container d-flex">
+            <div class="contact-info mr-auto">
+                <i class="icofont-envelope"></i> <a
+                    href="mailto:fitnesswithtanu@gmail.com">fitnesswithtanu@gmail.com</a>
+                <!-- <i class="icofont-Whatsapp"></i> 9998887771 -->
+            </div>
+            <div class="social-links">
+                <!-- <a href="#" class="twitter"><i class="icofont-twitter"></i></a>
+        <a href="#" class="facebook"><i class="icofont-facebook"></i></a>
+        <a href="#" class="skype"><i class="icofont-skype"></i></a>
+        <a href="#" class="linkedin"><i class="icofont-linkedin"></i></i></a> -->
+                <a href="https://instagram.com/fitnesswithtanu" class="instagram"><i class="icofont-instagram"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <!-- ======= Header ======= -->
+    <header id="header" class="fixed-top">
+        <div class="container d-flex align-items-center">
+
+            <h1 class="logo mr-auto"><a href="{% url 'home' %}">Fitness With Tanu<span>.</span></a></h1>
+            <!-- Uncomment below if you prefer to use an image logo -->
+            <!-- <a href="index.html" class="logo mr-auto"><img src="assets/img/logo.png" alt=""></a>-->
+
+            <nav class="nav-menu d-none d-lg-block">
+                <ul>
+                    <li><a href="{% url 'home' %}">Home</a></li>
+                    <li><a href="{% url 'about' %}">About</a></li>
+                    <li><a href="{% url 'blog' %}">Blogs</a></li>
+                    <li><a href="{% url 'workshop' %}">Workshops</a></li>
+                    <!-- <li><a href="#team">Team</a></li> -->
+                    <!-- <li class="drop-down"><a href="">Drop Down</a>
+            <ul>
+              <li><a href="#">Consult</a></li>
+              <li class="drop-down"><a href="#">WorkShops</a>
+                <ul>
+                  <li><a href="#">Deep 1</a></li>
+                  <li><a href="#">Deep Drop Down 2</a></li>
+                  <li><a href="#">Deep Drop Down 3</a></li>
+                  <li><a href="#">Deep Drop Down 4</a></li>
+                  <li><a href="#">Deep Drop Down 5</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Drop Down 2</a></li>
+              <li><a href="#">Drop Down 3</a></li>
+              <li><a href="#">Drop Down 4</a></li>
+            </ul>
+          </li> -->
+                    <li><a href="{% url 'contact' %}">Contact</a></li>
+
+                </ul>
+            </nav><!-- .nav-menu -->
+
+        </div>
+    </header><!-- End Header -->
+
+    <!-- ======= Hero Section ======= -->
+    <section class="d-flex align-items-center">
+        <div class="container" data-aos="zoom-out" data-aos-delay="100">
+            <h1><span></span>
+            </h1>
+        </div>
+    </section><!-- End Hero -->
+
+
+    <section id="about" class="about section-bg">
+        <div class="container-fluid aos-init aos-animate" data-aos="fade-up">
+
+            <div class="section-title">
+                <h2>About</h2>
+                <h3>Find Out More About<span> Tanu</span></h3>
+                <div class="row">
+                    <div class="col-lg-5 aos-init aos-animate" data-aos="zoom-out" data-aos-delay="100">
+                        <img id="tanuimg" src="{% static 'img/tanu.png' %}" alt="">
+                    </div>
+
+
+                    <div style="flex:0.75" class="col-lg-7 aos-init aos-animate" data-aos="zoom-out" data-aos-delay="100">
+                        <p> <br> <br>
+                            With the interest and intent to spread awareness Tanu has been contributing her bit by adding
+                            value to
+                            people’s life. Her life’s motto has been helping people around to take best decision of
+                            investing in their
+                            Nutrition and health and to live & lead a better healthy life. Tanu has been meritorious
+                            throughout her
+                            education and recipient of University Gold Medal. After her post-graduation she joined Fortis
+                            Escort Heart
+                            Institute (FEHI), New Delhi. After working for 8 years she joined as Head of Nutrition in Aakash
+                            Healthcare and has played pivotal role in the journey of the establishment of the Hospital in
+                            the early
+                            years
+                            and getting the hospital NABH accreditation. Tanu has expertise in the field of Nutrition & Diet
+                            therapy .
+                            She wisely deal with the therapeutic diets for cardiac, diabetic, renal and gastro patients. She
+                            actively
+                            Participates in the Lifestyle Management programme for Weight Reduction under medical
+                            supervision. She
+                            is always ready to contribute in the developmental work of the Nutritional aspects of various
+                            research(es).
+                        </p>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+
+
+    <div class="row " style="margin-top: 12%;padding-bottom: 5%;">
+        <div class="col-lg-12 aos-init aos-animate qualifications" data-aos="zoom-out" data-aos-delay="100">
+            <img src="{% static 'img/download.jpg' %}" alt="">
+            <b>
+                <h2 style="text-align: center;margin-bottom:35px;margin-top: 3%;"><u>Professional Qualifications</h2>
+            </b></u>
+            <ul>
+                <li>MBA in Hospital Administration ,ICFAI University, Hyderabad 2018</li>
+                <li>M.Sc. in Food, Nutrition & Dietetics ,Allahabad Agricultural University, Uttar Pradesh 2008</li>
+                <li>B.Sc in Home Science,MJP Rohilkhand University, Uttar Pradesh 2006</li>
+            </ul>
+
+        </div>
+    </div>
+    <hr>
+
+    <div class="row " style="margin-top: 10%;padding-bottom: 5%;justify-content: space-between;flex: 1;
+        flex-direction: column;">
+        <div class="col-lg-12 aos-init aos-animate award" data-aos="zoom-out" data-aos-delay="100">
+            <div class="image">
+                <img src="{% static 'img/awards.jpg' %}" alt="">
+            </div>
+            <div class="honour">
+                <b>
+                    <h2 style="text-align: center;"><u>Honours And Awards</h2>
+                </b></u>
+                <ul>
+                    <li>Got 2nd prize and an award in FEHI Madagascar Sparkle XII best out of waste competition, 2015.
+                    </li>
+                    <li>Got Appreciation award for Best Patient Care/Consultation service in August, 2015. </li>
+                    <li>Got 2015th Women of Substance Award by Fortis Escort Heart Institute, New Delhi</li>
+                    <li>Got Appreciation award for Best Patient Care/Consultation service in February, 2015. </li>
+                    <li>Merit holder in Post-graduation. </li>
+                    <li>Gold medallist in Graduation </li>
+                    <li>Qualified Indian council of agricultural research(ICAR) test in 2006</li>
+                    <li>Qualified Banaras Hindu University, test (All India Rank-2 ) in 2006</li>
+                </ul>
+
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+
+    <!-- ======= Footer ======= -->
+    <footer id="footer">
+
+        <div class="footer-newsletter">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-6">
+                        <h4>Join Our Newsletter</h4>
+                        <form method="POST">
+                            {% csrf_token %}
+                            {{mailform}}
+                            <input type="submit" value="Subscribe">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-top">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-lg-3 col-md-6 footer-contact">
+                        <h3>Fitness With Tanu<span>.</span></h3>
+                        <p>
+                            <strong>Whatsapp:</strong> +91 7678181876<br>
+                            <strong>Message:</strong> fitnesswithtanu@gmail.com<br>
+                        </p>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 footer-links">
+                        <ul>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#"><b>Home</b></a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#"><b>About Us</b></a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 footer-links">
+                        <ul>
+                            <li><i class="bx bx-chevron-right"></i> <a href="{% url 'workshop' %}"><b>Workshops</b></a>
+                            </li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="{% url 'blog' %}"><b>Blogs</b></a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 footer-links">
+                        <h4>Our Social Networks</h4>
+                        <div class="social-links mt-3">
+                            <!-- <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+    <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+    <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+    <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a> -->
+                            <a href="https://instagram.com/fitnesswithtanu" class="instagram"><i
+                                    class="bx bxl-instagram"></i></a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="container py-4">
+            <div class="copyright">
+                &copy; Copyright <strong><span>ScaleupHouse</span></strong>. All Rights Reserved
+            </div>
+            <div class="credits">
+                Designed by ScaleupHouse
+            </div>
+        </div>
+    </footer><!-- End Footer -->
+
+
+
+
+    <!-- Vendor JS Files -->
+    <script src="{% static '/vendor/jquery/jquery.min.js' %}"></script>
+    <script src="{% static '/vendor/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
+    <script src="{% static '/vendor/jquery.easing/jquery.easing.min.js' %}"></script>
+    <script src="{% static '/vendor/php-email-form/validate.js' %}"></script>
+    <script src="{% static '/vendor/waypoints/jquery.waypoints.min.js' %}"></script>
+    <script src="{% static '/vendor/counterup/counterup.min.js' %}"></script>
+    <script src="{% static '/vendor/owl.carousel/owl.carousel.min.js' %}"></script>
+    <script src="{% static '/vendor/isotope-layout/isotope.pkgd.min.js' %}"></script>
+    <script src="{% static '/vendor/venobox/venobox.min.js' %}"></script>
+    <script src="{% static '/vendor/aos/aos.js' %}"></script>
+
+    <!-- Template Main JS File -->
+    <script src="{% static '/js/main.js' %}"></script>
+
+</body>
+
+</html>
+
+    
+
